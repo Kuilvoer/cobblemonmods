@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
     Search,
     Grid,
-    Menu,
     X,
     CheckCircle2,
     Circle,
