@@ -7,6 +7,9 @@ import './index.css'
 document.body.style.backgroundColor = '';
 
 console.log('Initializing application...');
+console.log('Current Mode:', import.meta.env.MODE);
+console.log('Base URL:', import.meta.env.BASE_URL);
+console.log('Window Location:', window.location.href);
 
 class ErrorBoundary extends React.Component<{ children: React.ReactNode }, { hasError: boolean, error: Error | null }> {
     constructor(props: { children: React.ReactNode }) {
